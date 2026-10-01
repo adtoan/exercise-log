@@ -24,8 +24,15 @@ One occasion of training, started from a Template or empty, recorded as the sets
 _Avoid_: Session, log, training day
 
 **Workout Clock**:
-The overall elapsed time of a Workout, which can be paused and resumed.
+The overall elapsed time of a Workout, which can be paused and resumed. Pausing it also freezes any Rest in progress.
 _Avoid_: Timer, stopwatch
+
+**Active Time**:
+A Workout's duration with paused time excluded. The headline duration and the basis for efficiency stats.
+
+**Total Time**:
+A Workout's duration from start to finish, including pauses.
+_Avoid_: Wall time
 
 **Current Set**:
 The set the lifter is performing now, shown with its Set Target and the Workout Clock.
