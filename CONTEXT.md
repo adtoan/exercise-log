@@ -1,0 +1,45 @@
+# Exercise Log
+
+A mobile workout tracker built around workout efficiency: plan workouts as Templates, run them set by set against a Workout Clock and Rest timers, and keep an accurate record of what was lifted and how long everything took.
+
+## Language
+
+### Planning
+
+**Template**:
+A reusable plan for a workout: an ordered list of Exercises, each with its Set Targets.
+_Avoid_: Routine, program, plan
+
+**Set Target**:
+What one planned set aims for: reps (a single number or a range), weight, RPE and the Rest that follows it. Targets belong to individual sets, so warm-ups and top sets can differ within one exercise.
+_Avoid_: Goal, prescription
+
+**RPE**:
+Rate of Perceived Exertion, a 1–10 rating of how hard a set felt. Optional when logging.
+
+### Doing
+
+**Workout**:
+One occasion of training, started from a Template or empty, recorded as the sets actually performed.
+_Avoid_: Session, log, training day
+
+**Workout Clock**:
+The overall elapsed time of a Workout, which can be paused and resumed.
+_Avoid_: Timer, stopwatch
+
+**Current Set**:
+The set the lifter is performing now, shown with its Set Target and the Workout Clock.
+
+**Logged Set**:
+A set that was performed and marked Done, with its actual weight, reps and optional RPE.
+_Avoid_: Completed set, entry
+
+**Skipped Set**:
+A planned set the lifter chose not to perform. It stays in the record as skipped rather than being deleted.
+
+**Rest**:
+The countdown between a Logged Set and the next set, starting from the Set Target's rest time and adjustable by ±30 seconds. The actual rest taken is recorded.
+_Avoid_: Break, recovery
+
+**Workout Overview**:
+The screen listing every set in the current Workout, from which the lifter can jump to, skip, or add sets and exercises. The default order is linear.
