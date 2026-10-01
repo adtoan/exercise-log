@@ -30,6 +30,9 @@ _Avoid_: Timer, stopwatch
 **Active Time**:
 A Workout's duration with paused time excluded. The headline duration and the basis for efficiency stats.
 
+**Total Rest Time**:
+The sum of every Rest's actual length in a Workout, excluding paused time. Shown on the Workout summary.
+
 **Total Time**:
 A Workout's duration from start to finish, including pauses.
 _Avoid_: Wall time
@@ -42,7 +45,7 @@ A set that was performed and marked Done, with its actual weight, reps and optio
 _Avoid_: Completed set, entry
 
 **Skipped Set**:
-A planned set the lifter chose not to perform. It stays in the record as skipped rather than being deleted.
+A planned set the lifter chose not to perform. It stays in the record as skipped rather than being deleted. Any set not logged when a Workout finishes becomes a Skipped Set.
 
 **Rest**:
 The period between a Logged Set and the moment the lifter chooses to start the next set. Rest does not end on its own; its length, measured from Done to Next set, is the actual rest taken.
