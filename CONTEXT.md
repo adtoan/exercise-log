@@ -38,11 +38,11 @@ _Avoid_: Completed set, entry
 A planned set the lifter chose not to perform. It stays in the record as skipped rather than being deleted.
 
 **Rest**:
-The period between a Logged Set and the moment the lifter chooses to start the next set. Rest does not end on its own; its length is the actual rest taken.
+The period between a Logged Set and the moment the lifter chooses to start the next set. Rest does not end on its own; its length, measured from Done to Next set, is the actual rest taken.
 _Avoid_: Break, recovery
 
 **Rest Countdown**:
-The countdown shown during Rest, starting from the Set Target's rest time and adjustable by ±30 seconds. It stops at 0:00 and does not end Rest.
+The countdown shown during Rest, starting from the Set Target's rest time and adjustable by ±30 seconds. It stops silently at 0:00 and does not end Rest; +30 seconds at 0:00 starts it counting down again.
 
 **Workout Overview**:
 The screen listing every set in the current Workout, from which the lifter can jump to, skip, or add sets and exercises. The default order is linear.
