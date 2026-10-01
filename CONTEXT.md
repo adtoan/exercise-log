@@ -54,5 +54,16 @@ _Avoid_: Break, recovery
 **Rest Countdown**:
 The countdown shown during Rest, starting from the Set Target's rest time and adjustable by ±30 seconds. It stops silently at 0:00 and does not end Rest; +30 seconds at 0:00 starts it counting down again.
 
+**Workout Note**:
+Free text attached to a Workout, writable during and after it. There is one per Workout.
+_Avoid_: Comment, journal
+
+**Finish Early**:
+Ending a Workout before every planned set is done. Logged Sets are kept and the remaining sets become Skipped Sets.
+
+**Discard**:
+Removing a Workout from history entirely, after confirmation.
+_Avoid_: Abandon, cancel, delete
+
 **Workout Overview**:
 The screen listing every set in the current Workout, from which the lifter can jump to, skip, or add sets and exercises. The default order is linear.
