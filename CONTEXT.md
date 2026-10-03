@@ -52,6 +52,9 @@ The set the lifter is performing now, shown with its Set Target and the Workout 
 A set that was performed and marked Done, with its actual weight, reps and optional RPE.
 _Avoid_: Completed set, entry
 
+**Bodyweight (BW)**:
+A weight of 0, meaning the lifter's body is the only load. Added load, such as a dip belt, is logged as its own weight. All weights are in pounds.
+
 **Skipped Set**:
 A planned set the lifter chose not to perform. It stays in the record as skipped rather than being deleted. Any set not logged when a Workout finishes becomes a Skipped Set.
 
