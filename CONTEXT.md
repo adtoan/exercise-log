@@ -7,7 +7,7 @@ A mobile workout tracker built around workout efficiency: plan workouts as Templ
 ### Planning
 
 **Template**:
-A reusable plan for a workout: an ordered list of Exercises, each with its Set Targets.
+A reusable plan for a workout: an ordered list of Exercises, each with its Set Targets. A Workout started from a Template takes its own copy, so later edits to or deletion of the Template never change that Workout.
 _Avoid_: Routine, program, plan
 
 **Set Target**:
