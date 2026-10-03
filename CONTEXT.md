@@ -28,7 +28,7 @@ Rate of Perceived Exertion, a 1–10 rating of how hard a set felt. Optional whe
 ### Doing
 
 **Workout**:
-One occasion of training, started from a Template or empty, recorded as the sets actually performed.
+One occasion of training, always started from a Template, recorded as the sets actually performed.
 _Avoid_: Session, log, training day
 
 **Workout Clock**:
