@@ -6,6 +6,14 @@ A mobile workout tracker built around workout efficiency: plan workouts as Templ
 
 ### Planning
 
+**Catalog**:
+The lifter's own list of Exercises. It starts empty and grows only when the lifter adds to it.
+_Avoid_: Library, exercise list
+
+**Exercise**:
+A movement in the Catalog, identified by its name. Two names that differ only in capitals or spacing are the same Exercise. A Workout records each Exercise's name as it was at the time, so renaming or deleting an Exercise never changes past Workouts.
+_Avoid_: Movement, lift
+
 **Template**:
 A reusable plan for a workout: an ordered list of Exercises, each with its Set Targets. A Workout started from a Template takes its own copy, so later edits to or deletion of the Template never change that Workout.
 _Avoid_: Routine, program, plan
