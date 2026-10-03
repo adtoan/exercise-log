@@ -19,7 +19,7 @@ A reusable plan for a workout: an ordered list of Exercises, each with its Set T
 _Avoid_: Routine, program, plan
 
 **Set Target**:
-What one planned set aims for: reps (a single number or a range), weight, RPE and the Rest that follows it. Targets belong to individual sets, so warm-ups and top sets can differ within one exercise.
+What one planned set aims for: reps (a single number or a range), weight, RPE and the Rest that follows it. Targets belong to individual sets, so warm-ups and top sets can differ within one exercise. Every set has a Set Target: reps, weight and rest are required, and RPE is optional. Sets added during a Workout get one too.
 _Avoid_: Goal, prescription
 
 **RPE**:
