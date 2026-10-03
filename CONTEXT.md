@@ -78,3 +78,9 @@ _Avoid_: Abandon, cancel, delete
 
 **Workout Overview**:
 The screen listing every set in the current Workout, from which the lifter can jump to, skip, or add sets and exercises. The default order is linear.
+
+### Reviewing
+
+**Personal Record (PR)**:
+An Exercise's Logged Set with the heaviest weight, with the most reps at that weight breaking a tie. It is always derived from history, so editing or discarding a Workout can change it. Skipped Sets never count.
+_Avoid_: Best set, max
